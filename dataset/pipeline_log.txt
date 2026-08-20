@@ -1,0 +1,31 @@
+Towel pipeline log - Fri Jul 31 11:16:46 2026
+Blender 4.1.1
+============================================================
+BLENDER_EEVEE, 64 samples
+92 towels in the scene, camera framed OK
+Per-frame variation: camera +/-1.5 deg, +/-3 cm; light 75-125% of your setup
+Pass 1: rendering 3 images
+  image 1/3  frame_000000.png
+  image 2/3  frame_000001.png
+  image 3/3  frame_000002.png
+Rendering 3 towel ID passes (Cycles, 1 sample)
+  towel ids 1/3  frame_000000.png
+  towel ids 2/3  frame_000001.png
+  towel ids 3/3  frame_000002.png
+Rendering 3 stack ID passes (Cycles, 1 sample)
+  stack ids 1/3  frame_000000.png
+  stack ids 2/3  frame_000001.png
+  stack ids 3/3  frame_000002.png
+Annotating
+Annotating 3 ID images from /Users/bradleyslaptop/Documents/Towel_Sim_Pipeline/dataset/ids  (+ stack outlines)
+  frame_000000.png: 88 towels, 15 stacks visible
+  frame_000001.png: 66 towels, 13 stacks visible
+  frame_000002.png: 90 towels, 17 stacks visible
+Wrote annotations.json - 3 images, 244 towels (avg 81.3/image), 45 stacks (avg 15.0/image)
+Drawing label previews for 3 image(s)
+  frame_000000_labels.png: 88 towels, 15 stacks drawn
+  frame_000001_labels.png: 66 towels, 13 stacks drawn
+  frame_000002_labels.png: 90 towels, 17 stacks drawn
+3 preview(s) written to /Users/bradleyslaptop/Documents/Towel_Sim_Pipeline/dataset/preview
+DONE in 0.2 min
+Saved to /Users/bradleyslaptop/Documents/Towel_Sim_Pipeline/dataset
